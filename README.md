@@ -10,11 +10,17 @@ OutPutPATH> <DFS-TempFilePATH> |S| |R| partitionNumber
 
 where:
 <Path-to-project-jar/HadoopProject.jar> is the jar location
+
 <DFS-InputFilePATH > is the input file lcoation in DFS
+
 <DFS-OutPutPATH> is the output file location in DFS
+
 <DFS-TempFilePATH> is the location of an intermediate file in DFS for saving the results of the first reduce cycle
+
 |S| number of tuples for S
+
 |R| number of tuples for R
+
 partitionNumber number of partitions
 
 
