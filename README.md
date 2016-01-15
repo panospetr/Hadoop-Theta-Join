@@ -3,7 +3,7 @@ MSC Course Project
 
 An implementation of "Okcan A. et al., "Processing theta‐joins using MapReduce", SIGMOD, 2011" with the improvements proposed at "Koumarelas I. et al., "Binary Theta-Joins using MapReduce: Efficiency Analysis and Improvements", EDBT/ICDT, 2014"
 
-command line execution:
+##command line execution:
 
 hadoop jar Path-to-project-jar/HadoopProject.jar DFS-InputFilePATH  DFS-OutPutPATH DFS-TempFilePATH |S| |R|partitionNumber
 
